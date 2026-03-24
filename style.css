@@ -1,0 +1,69 @@
+* {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; /*Evitar que os elementos aumente de tamanho inesperadamente facilitando o controle da responsividade*/
+
+}
+
+.cabecalho {
+    background-color: rgb(240, 240, 240);
+    color: white;
+    padding: 1.5rem; /*poderia ser 24px*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+    position: sticky;
+    left: 0;
+    top: 0;
+    z-index: 999;
+
+    
+}
+
+ /* Logo do Header */
+.div-logo img {
+    width: 15%;  /*usando o % para diminuir seu tamanho*/
+}
+/* estilização do botão header */
+.div-button a button {
+    width: 5rem; /*poderia ser 80 px*/
+    padding: 0,5rem; /*8px - preenchimento*/
+    background-color: rgb(196, 78, 78);
+    border: none;
+    font-weight: 700;
+    border-radius: 5px;
+    
+}
+
+.section-01 {
+    padding: 9rem; /*preenchimento interno da section*/
+    background-image: url(imagem/fufundo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem; /*poderiamos usar 32px*/
+    flex-wrap: wrap; /*Isso significa que as div poderão quebrar de linha, caso necessario*/
+}
+
+.div01 {
+    background-color: rgba(240, 255, 255, 0.671);
+    color: blue;
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+    width: 25%;
+    height: 20rem;
+    min-width: 299px;
+}
+
+.div02 {
+     
+}
+
