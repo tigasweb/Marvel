@@ -4,10 +4,13 @@
   margin: 0;
   box-sizing: border-box; /*Evitar que os elementos aumente de tamanho inesperadamente facilitando o controle da responsividade*/
 
+  list-style: none;
+  
+
 }
 
 .cabecalho {
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(10, 39, 2);
     color: white;
     padding: 1.5rem; /*poderia ser 24px*/
     display: flex;
@@ -25,13 +28,14 @@
 
  /* Logo do Header */
 .div-logo img {
-    width: 15%;  /*usando o % para diminuir seu tamanho*/
+    width: 30%;  /*usando o % para diminuir seu tamanho*/
 }
 /* estilização do botão header */
 .div-button a button {
     width: 5rem; /*poderia ser 80 px*/
     padding: 0,5rem; /*8px - preenchimento*/
-    background-color: rgb(196, 78, 78);
+    background-color: rgb(0, 0, 0);
+    color: white;
     border: none;
     font-weight: 700;
     border-radius: 5px;
@@ -40,7 +44,7 @@
 
 .section-01 {
     padding: 9rem; /*preenchimento interno da section*/
-    background-image: url(imagem/fufundo.jpg);
+    background-image: url(imagem/fundoo.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -54,7 +58,7 @@
 
 .div01 {
     background-color: rgba(240, 255, 255, 0.671);
-    color: blue;
+    color: rgb(0, 0, 0);
     text-align: center;
     font-size: 2rem;
     padding: 1rem;
@@ -64,6 +68,31 @@
 }
 
 .div02 {
-     
+    padding: 1rem; 
+    width: 25%;
+    height: 20rem;
+    min-width: 299px;
+    background: linear-gradient(180deg, rgb(3, 31, 3) 8.33%, rgba(0, 0, 0, 0.171) 100%), url(imagem/doom.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+  
+
 }
+
+.ul-div01 li a {
+    text-decoration: none;
+    background-color: rgb(1, 44, 1);
+    color: white;
+    padding: 2px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.ul-div01 li {
+    margin: 5px 5px; /*alterando os 4 lados externos dos elementos, primeiro valor (superior e inferior) e segundo valor é (esquerda e direita)*/
+}
+
+
 
