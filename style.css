@@ -1,5 +1,5 @@
 * {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
   padding: 0;
   margin: 0;
   box-sizing: border-box; /*Evitar que os elementos aumente de tamanho inesperadamente facilitando o controle da responsividade*/
@@ -33,7 +33,7 @@
 /* estilização do botão header */
 .div-button a button {
     width: 5rem; /*poderia ser 80 px*/
-    padding: 0,5rem; /*8px - preenchimento*/
+    padding: 0.5rem; /*8px - preenchimento*/
     background-color: rgb(0, 0, 0);
     color: white;
     border: none;
@@ -72,10 +72,15 @@
     width: 25%;
     height: 20rem;
     min-width: 299px;
-    background: linear-gradient(180deg, rgb(3, 31, 3) 8.33%, rgba(0, 0, 0, 0.171) 100%), url(imagem/doom.jpg);
+    background: linear-gradient(180deg, rgba(0, 83, 0, 0.363) 8.33%, rgba(248, 248, 248, 0.171) 100%), url(imagem/div.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    display: flex;
+    align-items:  end;
+    justify-content: end;
+    flex-direction: column;
+    gap: 15px;
     
   
 
@@ -94,5 +99,30 @@
     margin: 5px 5px; /*alterando os 4 lados externos dos elementos, primeiro valor (superior e inferior) e segundo valor é (esquerda e direita)*/
 }
 
+.img-div {
+    padding: 3%;
+    background-image: url(imagem/textutu.avif);
+    background-position: center;
+    background-size: cover;
+}
 
+.section-02{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 1.5rem;
+   padding: 5rem;
+   background-color: rgb(0, 0, 0);
+}
+
+.caixa {
+    width: 25%;
+    height: 22rem;
+    background-color: rgb(1, 39, 1);
+    min-width: 299px;
+    font-size: 1.2rem;
+    color: white;
+    box-shadow: 10px 10px 10px rgb(3, 255, 3);
+    
+}
 
