@@ -1,5 +1,5 @@
 * {
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   padding: 0;
   margin: 0;
   box-sizing: border-box; /*Evitar que os elementos aumente de tamanho inesperadamente facilitando o controle da responsividade*/
@@ -101,9 +101,11 @@
 
 .img-div {
     padding: 3%;
-    background-image: url(imagem/textutu.avif);
+    background-image: url(imagem/images.jpg);
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
+    
 }
 
 .section-02{
@@ -122,7 +124,12 @@
     min-width: 299px;
     font-size: 1.2rem;
     color: white;
-    box-shadow: 10px 10px 10px rgb(3, 255, 3);
+    box-shadow: 10px 10px 20px rgb(14, 51, 14);
     
+}
+
+.caixa:hover {
+    box-shadow: 12px 12px 22px rgb(10, 182, 10);
+    transition: 0.8s;
 }
 
