@@ -48,7 +48,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
+    background-attachment: fixed;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -100,15 +100,15 @@
 }
 
 .img-div {
-    padding: 3%;
-    background-image: url(imagem/images.jpg);
+    padding: 1%;
+    background-image: url(imagem/textura\ green.avif);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     
 }
 
-.section-02{
+.section-02, .section-04{
    display: flex;
    justify-content: center;
    align-items: center;
@@ -133,3 +133,50 @@
     transition: 0.8s;
 }
 
+.div03, .div04 {
+    height: 15rem;
+    text-align: center;
+}
+
+.section-03 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
+   padding: 5rem ;
+   background-color: black;
+   flex-wrap: wrap;
+}
+
+.content-text {
+    text-align: start; /*Alinhando os textos ao inicio*/
+    margin: 1rem; /*espaçamento em torno da caixa*/
+    color: aliceblue; /*cor do texto*/
+    font-weight: 500;/*peso da font*/
+
+}
+
+.icon-div03 {
+    color: rgb(155, 152, 152); /*cores do icon*/
+    font-size: 3rem; /*tamanho dos icon*/
+    margin-top: 1.2rem;/*espaçamento superior dos icon */
+}
+
+/* inicio formatação caixa 02 da section03 */
+
+.button-div04 a button {
+    padding: 0.5rem;
+    background-color: aliceblue;
+    color: black;
+    font-weight: 600;
+    margin: 1rem 0;
+}
+
+.text-div04 p {
+    color: aliceblue;
+}
+
+.batata {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
