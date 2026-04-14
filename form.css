@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh; /*estamos dizendo ao body que queremos a altura completa (100%)*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, rgb(5, 46, 0), rgb(0, 0, 0));
+}
+
+.google-btn img {
+    width: 20px;
+}
+
+.container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 400px; /*Define a largura maxima do container em 400px*/
+    box-shadow: 0 10px 25px black;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: black;
+}
+
+.input-group {
+    margin-bottom: 1rem;
+}
+
+.input-group label {
+    display: block; /*Mantendo o comportamento do elemento em bloco ()*/
+    margin-bottom: 5px;
+    color: rgb(7, 49, 7);
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1.5px solid rgb(0, 22, 0);
+    outline: none; /*remove o contorno (borda externa) do elemento*/
+    transition: 0.3s;
+}
+
+.input-group input:focus{
+    border-color: rgb(24, 230, 24) ;
+    box-shadow: 0 0 5px grey ;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    gap: 15px;
+}
+
+.links a {
+    text-decoration: none;
+    color: blue;
+}
+
+.links a:hover {
+   text-decoration: underline;
+
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: blue;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: rgb(37, 129, 37);
+    color: black;
+}
+
+.google-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid rgb(0, 22, 0);
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: white;
+    margin-top: 1rem;
+}
